@@ -1,0 +1,13 @@
+intent,user_message,bot_response,category
+greeting,Hi,Hello! How can I assist you today?,greeting
+greeting,Hello,Hi there! I'm here to help. What can I do for you?,greeting
+greeting,Good morning,Good morning! How may I help you today?,greeting
+order_status,Where is my order?,I can help you track your order. Please provide your order number.,orders
+order_status,Track my package,I'd be happy to help you track your package. What's your order number?,orders
+return_request,I want to return my order,I can help you with your return request. Our return policy allows returns within 30 days. Do you have your order number?,returns
+refund_request,I need a refund,I can help you with your refund request. Refunds are typically processed within 5-7 business days. What's your order number?,returns
+shipping_info,How long does shipping take?,Shipping typically takes 3-5 business days for standard delivery and 1-2 business days for express shipping.,shipping
+account_help,I forgot my password,No problem! You can reset your password by clicking the 'Forgot Password' link on the login page.,account
+payment_help,My payment was declined,I'm sorry your payment was declined. Please check with your bank or try a different payment method.,payment
+fallback,I don't understand,I apologize for any confusion. Let me connect you with a human agent.,fallback
+goodbye,Thank you,You're welcome! Is there anything else I can help you with today?,goodbye
